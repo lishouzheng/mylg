@@ -393,6 +393,47 @@ func (i *Trace) NextHop(hop int) HopResp {
 	return r
 }
 
+type HopRespp struct {
+	Num     int
+	Hop     string
+	IP      string
+	Elapsed float64
+	Last    bool
+	Err     error
+	Whois   Whois
+}
+
+func newHopRespp(hs []HopResp) []HopRespp {
+	pp := make([]HopRespp, 0, len(hs))
+	for _, h := range hs {
+		pp = append(pp, HopRespp{
+			Num:     h.num,
+			Hop:     h.hop,
+			IP:      h.ip,
+			Elapsed: h.elapsed,
+			Last:    h.last,
+			Err:     h.err,
+			Whois:   h.whois,
+		})
+	}
+	return pp
+}
+
+func (i *Trace) Runn(retry int) (chan []HopRespp, error) {
+	cc := make(chan []HopRespp, 1)
+	c, err := i.Run(retry)
+	if err != nil {
+		return nil, err
+	}
+	go func() {
+		for n := range c {
+			cc <- newHopRespp(n)
+		}
+		close(cc)
+	}()
+	return cc, nil
+}
+
 // Run provides trace based on the other methods
 func (i *Trace) Run(retry int) (chan []HopResp, error) {
 	var (
