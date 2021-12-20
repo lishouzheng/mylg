@@ -15,8 +15,8 @@ import (
 
 	"github.com/miekg/dns"
 
-	"github.com/shouzhengli/mylg/cli"
-	"github.com/shouzhengli/mylg/data"
+	"github.com/lishouzheng/mylg/cli"
+	"github.com/lishouzheng/mylg/data"
 )
 
 const (

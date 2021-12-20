@@ -6,8 +6,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/shouzhengli/mylg/cli"
-	"github.com/shouzhengli/mylg/http/ping"
+	"github.com/lishouzheng/mylg/cli"
+	"github.com/lishouzheng/mylg/http/ping"
 )
 
 func TestNewPing(t *testing.T) {

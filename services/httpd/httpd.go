@@ -8,9 +8,9 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/rakyll/statik/fs"
 
-	"github.com/shouzhengli/mylg/cli"
+	"github.com/lishouzheng/mylg/cli"
 	// statik is single binary including all web stuff
-	_ "github.com/shouzhengli/mylg/services/dashboard/statik"
+	_ "github.com/lishouzheng/mylg/services/dashboard/statik"
 )
 
 type TTracker struct {

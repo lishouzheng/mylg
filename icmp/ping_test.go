@@ -4,8 +4,8 @@ import (
 	"net"
 	"testing"
 
-	"github.com/shouzhengli/mylg/cli"
-	"github.com/shouzhengli/mylg/icmp"
+	"github.com/lishouzheng/mylg/cli"
+	"github.com/lishouzheng/mylg/icmp"
 )
 
 func TestSetIP(t *testing.T) {

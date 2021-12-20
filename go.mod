@@ -1,4 +1,4 @@
-module github.com/shouzhengli/mylg
+module github.com/lishouzheng/mylg
 
 go 1.12
 

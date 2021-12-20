@@ -8,7 +8,7 @@ import (
 
 	"github.com/k-sone/snmpgo"
 
-	"github.com/shouzhengli/mylg/cli"
+	"github.com/lishouzheng/mylg/cli"
 )
 
 var (

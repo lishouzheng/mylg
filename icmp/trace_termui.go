@@ -10,7 +10,7 @@ import (
 
 	ui "github.com/gizak/termui"
 
-	"github.com/shouzhengli/mylg/ripe"
+	"github.com/lishouzheng/mylg/ripe"
 )
 
 // Widgets represents termui widgets

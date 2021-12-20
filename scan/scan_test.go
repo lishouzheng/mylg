@@ -3,8 +3,8 @@ package scan_test
 import (
 	"testing"
 
-	"github.com/shouzhengli/mylg/cli"
-	"github.com/shouzhengli/mylg/scan"
+	"github.com/lishouzheng/mylg/cli"
+	"github.com/lishouzheng/mylg/scan"
 )
 
 var (
