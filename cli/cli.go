@@ -12,7 +12,7 @@ import (
 	"strings"
 
 	"github.com/chzyer/readline"
-	"github.com/mehrdadrad/mylg/banner"
+	"github.com/lishouzheng/mylg/banner"
 )
 
 const usage = `Usage:

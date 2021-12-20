@@ -18,7 +18,7 @@ import (
 	"github.com/google/gopacket/layers"
 	"github.com/google/gopacket/pcap"
 
-	"github.com/mehrdadrad/mylg/cli"
+	"github.com/lishouzheng/mylg/cli"
 	"github.com/olekukonko/tablewriter"
 )
 

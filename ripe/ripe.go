@@ -12,7 +12,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/mehrdadrad/mylg/data"
+	"github.com/lishouzheng/mylg/data"
 	"github.com/olekukonko/tablewriter"
 )
 

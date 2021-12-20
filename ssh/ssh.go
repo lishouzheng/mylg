@@ -13,7 +13,7 @@ import (
 	"golang.org/x/crypto/ssh"
 	"golang.org/x/crypto/ssh/terminal"
 
-	"github.com/mehrdadrad/mylg/cli"
+	"github.com/lishouzheng/mylg/cli"
 )
 
 // SSH represents SSH properties

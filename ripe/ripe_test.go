@@ -3,7 +3,7 @@ package ripe_test
 import (
 	"testing"
 
-	"github.com/mehrdadrad/mylg/ripe"
+	"github.com/lishouzheng/mylg/ripe"
 	"gopkg.in/h2non/gock.v0"
 )
 

@@ -12,7 +12,7 @@ import (
 
 	"github.com/olekukonko/tablewriter"
 
-	"github.com/mehrdadrad/mylg/cli"
+	"github.com/lishouzheng/mylg/cli"
 )
 
 const (
