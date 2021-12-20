@@ -15,19 +15,19 @@ import (
 
 	"github.com/briandowns/spinner"
 
-	"github.com/lishouzheng/mylg/cli"
-	"github.com/lishouzheng/mylg/disc"
-	"github.com/lishouzheng/mylg/http/ping"
-	"github.com/lishouzheng/mylg/icmp"
-	"github.com/lishouzheng/mylg/lg"
-	"github.com/lishouzheng/mylg/nms"
-	"github.com/lishouzheng/mylg/ns"
-	"github.com/lishouzheng/mylg/packet"
-	"github.com/lishouzheng/mylg/peeringdb"
-	"github.com/lishouzheng/mylg/scan"
-	"github.com/lishouzheng/mylg/services/httpd"
-	"github.com/lishouzheng/mylg/speedtest"
-	"github.com/lishouzheng/mylg/whois"
+	"github.com/mehrdadrad/mylg/cli"
+	"github.com/mehrdadrad/mylg/disc"
+	"github.com/mehrdadrad/mylg/http/ping"
+	"github.com/mehrdadrad/mylg/icmp"
+	"github.com/mehrdadrad/mylg/lg"
+	"github.com/mehrdadrad/mylg/nms"
+	"github.com/mehrdadrad/mylg/ns"
+	"github.com/mehrdadrad/mylg/packet"
+	"github.com/mehrdadrad/mylg/peeringdb"
+	"github.com/mehrdadrad/mylg/scan"
+	"github.com/mehrdadrad/mylg/services/httpd"
+	"github.com/mehrdadrad/mylg/speedtest"
+	"github.com/mehrdadrad/mylg/whois"
 )
 
 const (

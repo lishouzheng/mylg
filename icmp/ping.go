@@ -18,7 +18,7 @@ import (
 	"golang.org/x/net/ipv4"
 	"golang.org/x/net/ipv6"
 
-	"github.com/lishouzheng/mylg/cli"
+	"github.com/mehrdadrad/mylg/cli"
 )
 
 // packet represents ping packet

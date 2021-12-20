@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/lishouzheng/mylg/cli"
+	"github.com/mehrdadrad/mylg/cli"
 )
 
 func TestDefaultConfig(t *testing.T) {

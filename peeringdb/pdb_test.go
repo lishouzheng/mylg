@@ -3,7 +3,7 @@ package peeringdb_test
 import (
 	"testing"
 
-	"github.com/lishouzheng/mylg/peeringdb"
+	"github.com/mehrdadrad/mylg/peeringdb"
 	"gopkg.in/h2non/gock.v0"
 )
 

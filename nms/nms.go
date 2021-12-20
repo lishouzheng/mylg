@@ -17,7 +17,7 @@ import (
 	"github.com/k-sone/snmpgo"
 	"github.com/olekukonko/tablewriter"
 
-	"github.com/lishouzheng/mylg/cli"
+	"github.com/mehrdadrad/mylg/cli"
 )
 
 // Client represents NMS client

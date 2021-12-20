@@ -20,8 +20,8 @@ import (
 
 	"golang.org/x/net/ipv4"
 
-	"github.com/lishouzheng/mylg/cli"
-	"github.com/lishouzheng/mylg/ripe"
+	"github.com/mehrdadrad/mylg/cli"
+	"github.com/mehrdadrad/mylg/ripe"
 )
 
 // TCPOption represents TCP option

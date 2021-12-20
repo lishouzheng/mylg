@@ -3,7 +3,7 @@
 package whois
 
 import (
-	"github.com/lishouzheng/mylg/ripe"
+	"github.com/mehrdadrad/mylg/ripe"
 )
 
 // whois represents whois providers

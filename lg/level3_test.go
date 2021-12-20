@@ -3,7 +3,7 @@ package lg_test
 import (
 	"testing"
 
-	"github.com/lishouzheng/mylg/lg"
+	"github.com/mehrdadrad/mylg/lg"
 	"gopkg.in/h2non/gock.v0"
 )
 
