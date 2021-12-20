@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/mehrdadrad/mylg/disc"
+	"github.com/shouzhengli/mylg/disc"
 )
 
 func TestWalkIP(t *testing.T) {

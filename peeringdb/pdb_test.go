@@ -1,9 +1,10 @@
 package peeringdb_test
 
 import (
-	"github.com/mehrdadrad/mylg/peeringdb"
-	"gopkg.in/h2non/gock.v0"
 	"testing"
+
+	"github.com/shouzhengli/mylg/peeringdb"
+	"gopkg.in/h2non/gock.v0"
 )
 
 func TestIsASN(t *testing.T) {

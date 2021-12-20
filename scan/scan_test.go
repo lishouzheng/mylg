@@ -1,9 +1,10 @@
 package scan_test
 
 import (
-	"github.com/mehrdadrad/mylg/cli"
-	"github.com/mehrdadrad/mylg/scan"
 	"testing"
+
+	"github.com/shouzhengli/mylg/cli"
+	"github.com/shouzhengli/mylg/scan"
 )
 
 var (

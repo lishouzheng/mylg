@@ -3,7 +3,7 @@ package cli_test
 import (
 	"testing"
 
-	"github.com/mehrdadrad/mylg/cli"
+	"github.com/shouzhengli/mylg/cli"
 )
 
 var c *cli.Readline
